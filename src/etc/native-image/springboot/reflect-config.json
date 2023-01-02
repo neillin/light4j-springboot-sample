@@ -1,0 +1,544 @@
+[
+  {
+    "name":"org.springframework.boot.context.properties.ConfigurationPropertiesBinder$Factory",
+    "queryAllDeclaredMethods":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"org.springframework.boot.context.properties.DeprecatedConfigurationProperty",
+    "queryAllDeclaredMethods":true
+  },
+  {
+    "name":"org.springframework.boot.context.properties.EnableConfigurationProperties",
+    "queryAllDeclaredMethods":true,
+    "methods":[{"name":"value","parameterTypes":[] }]
+  },
+  {
+    "name":"org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"org.springframework.boot.context.properties.NestedConfigurationProperty",
+    "queryAllDeclaredMethods":true
+  },
+  {
+    "name":"org.springframework.context.annotation.AnnotationScopeMetadataResolver",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"org.springframework.context.annotation.Bean",
+    "queryAllDeclaredMethods":true,
+    "methods":[
+      {"name":"autowire","parameterTypes":[] },
+      {"name":"autowireCandidate","parameterTypes":[] },
+      {"name":"destroyMethod","parameterTypes":[] },
+      {"name":"initMethod","parameterTypes":[] },
+      {"name":"name","parameterTypes":[] },
+      {"name":"value","parameterTypes":[] }
+    ]
+  },
+  {
+    "name":"org.springframework.context.annotation.CommonAnnotationBeanPostProcessor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"org.springframework.context.annotation.ComponentScan",
+    "queryAllDeclaredMethods":true,
+    "methods":[
+      {"name":"basePackageClasses","parameterTypes":[] },
+      {"name":"basePackages","parameterTypes":[] },
+      {"name":"excludeFilters","parameterTypes":[] },
+      {"name":"includeFilters","parameterTypes":[] },
+      {"name":"lazyInit","parameterTypes":[] },
+      {"name":"nameGenerator","parameterTypes":[] },
+      {"name":"resourcePattern","parameterTypes":[] },
+      {"name":"scopeResolver","parameterTypes":[] },
+      {"name":"scopedProxy","parameterTypes":[] },
+      {"name":"useDefaultFilters","parameterTypes":[] },
+      {"name":"value","parameterTypes":[] }
+    ]
+  },
+  {
+    "name":"org.springframework.context.annotation.ComponentScan$Filter",
+    "queryAllDeclaredMethods":true,
+    "methods":[
+      {"name":"classes","parameterTypes":[] },
+      {"name":"pattern","parameterTypes":[] },
+      {"name":"type","parameterTypes":[] },
+      {"name":"value","parameterTypes":[] }
+    ]
+  },
+  {
+    "name":"org.springframework.context.annotation.Conditional",
+    "queryAllDeclaredMethods":true,
+    "methods":[{"name":"value","parameterTypes":[] }]
+  },
+  {
+    "name":"org.springframework.context.annotation.Configuration",
+    "queryAllDeclaredMethods":true,
+    "methods":[
+      {"name":"proxyBeanMethods","parameterTypes":[] },
+      {"name":"value","parameterTypes":[] }
+    ]
+  },
+  {
+    "name":"org.springframework.context.annotation.ConfigurationClassEnhancer$EnhancedConfiguration",
+    "queryAllDeclaredMethods":true,
+    "queryAllPublicMethods":true
+  },
+  {
+    "name":"org.springframework.boot.context.TypeExcludeFilter",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name": "org.springframework.boot.SpringBootConfiguration",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfiguration",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "after",
+        "parameterTypes": []
+      },
+      {
+        "name": "before",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationImportSelector",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackage",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "basePackageClasses",
+        "parameterTypes": []
+      },
+      {
+        "name": "basePackages",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackages$Registrar",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigureAfter",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigureBefore",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigureOrder",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.BackgroundPreinitializer",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.EnableAutoConfiguration",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "exclude",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.SpringBootApplication",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "exclude",
+        "parameterTypes": []
+      },
+      {
+        "name": "excludeName",
+        "parameterTypes": []
+      },
+      {
+        "name": "nameGenerator",
+        "parameterTypes": []
+      },
+      {
+        "name": "proxyBeanMethods",
+        "parameterTypes": []
+      },
+      {
+        "name": "scanBasePackageClasses",
+        "parameterTypes": []
+      },
+      {
+        "name": "scanBasePackages",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "forceAutoProxyCreatorToUseClassProxying",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "applicationAvailability",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheConfigurationImportSelector",
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.cache.CacheCondition",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionEvaluationReportAutoConfigurationImportListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnBean",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "annotation",
+        "parameterTypes": []
+      },
+      {
+        "name": "parameterizedContainer",
+        "parameterTypes": []
+      },
+      {
+        "name": "search",
+        "parameterTypes": []
+      },
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnClass",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "annotation",
+        "parameterTypes": []
+      },
+      {
+        "name": "ignored",
+        "parameterTypes": []
+      },
+      {
+        "name": "ignoredType",
+        "parameterTypes": []
+      },
+      {
+        "name": "name",
+        "parameterTypes": []
+      },
+      {
+        "name": "parameterizedContainer",
+        "parameterTypes": []
+      },
+      {
+        "name": "search",
+        "parameterTypes": []
+      },
+      {
+        "name": "type",
+        "parameterTypes": []
+      },
+      {
+        "name": "value",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnMissingClass",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnProperty",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnResource",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnSingleCandidate",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication",
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "type",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication$Type"
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnBeanCondition",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnClassCondition",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnPropertyCondition",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnResourceCondition",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.OnWebApplicationCondition",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.condition.SearchStrategy"
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "defaultLifecycleProcessor",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.context.LifecycleProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.LifecycleProperties",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration$ResourceBundleCondition",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "propertySourcesPlaceholderConfigurer",
+        "parameterTypes": []
+      }
+    ]
+  }
+]

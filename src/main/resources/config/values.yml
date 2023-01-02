@@ -1,0 +1,9 @@
+# service.yml
+service.singletons:
+  - com.networknt.utility.Decryptor:
+    - com.networknt.decrypt.AESDecryptor
+
+# server.yml
+server.serviceId: com.networknt.springboot.reset-0.0.1
+
+

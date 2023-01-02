@@ -1,0 +1,694 @@
+[
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"[Lcom.networknt.handler.RequestInterceptor;"
+},
+{
+  "name":"[Lcom.networknt.handler.ResponseInterceptor;"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BLCHeader$DrainStatusRef",
+  "fields":[{"name":"drainStatus"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PS",
+  "fields":[
+    {"name":"key"}, 
+    {"name":"value"}
+  ]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSW",
+  "fields":[{"name":"writeTime"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSW",
+  "methods":[{"name":"<init>","parameterTypes":["com.github.benmanes.caffeine.cache.Caffeine","com.github.benmanes.caffeine.cache.CacheLoader","boolean"] }]
+},
+{
+  "name":"com.networknt.audit.AuditHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.balance.RoundRobinLoadBalance",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.body.BodyHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.body.RequestBodyInterceptor",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.body.ResponseBodyInterceptor",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.chaos.ChaosMonkeyConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.chaos.ChaosMonkeyGetHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.chaos.ChaosMonkeyPostHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.chaos.ExceptionAssaultConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.chaos.ExceptionAssaultHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.chaos.KillappAssaultConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.chaos.KillappAssaultHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.chaos.LatencyAssaultConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.chaos.LatencyAssaultHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.chaos.MemoryAssaultConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.chaos.MemoryAssaultHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.cluster.LightCluster",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.config.reload.handler.ConfigReloadHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.config.reload.handler.ModuleRegistryGetHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.config.reload.model.ConfigReloadConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.correlation.CorrelationConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.correlation.CorrelationHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.cors.CorsConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.cors.CorsHttpHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.decrypt.AESDecryptor",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.exception.ExceptionConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.exception.ExceptionHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.handler.RequestInterceptor"
+},
+{
+  "name":"com.networknt.handler.RequestInterceptorInjectionHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.handler.ResponseInterceptor"
+},
+{
+  "name":"com.networknt.handler.ResponseInterceptorInjectionHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.handler.config.HandlerConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.handler.config.PathChain",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.header.HeaderHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.health.HealthConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.health.HealthGetHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.health.HealthGetHandler$HealthResult",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.info.ServerInfoConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.info.ServerInfoGetHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.jsonoverlay.ListOverlay$1",
+  "methods":[{"name":"getOverlay","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.jsonoverlay.MapOverlay$1",
+  "methods":[{"name":"getOverlay","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.limit.LimitHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.logging.handler.LoggerGetHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.logging.handler.LoggerGetLogContentsHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.logging.handler.LoggerPostHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.logging.model.LoggerConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.logging.model.LoggerInfo",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.metrics.MetricsConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.metrics.MetricsHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.openapi.JwtVerifyHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.openapi.OpenApiHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.openapi.ValidatorConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.openapi.ValidatorHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.proxy.LightProxyHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.proxy.ProxyServerInfoHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.registry.URLImpl",
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setHost","parameterTypes":["java.lang.String"] }, 
+    {"name":"setParameters","parameterTypes":["java.util.Map"] }, 
+    {"name":"setPath","parameterTypes":["java.lang.String"] }, 
+    {"name":"setPort","parameterTypes":["int"] }, 
+    {"name":"setProtocol","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"com.networknt.registry.support.DirectRegistry",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["com.networknt.registry.URL"] }]
+},
+{
+  "name":"com.networknt.reqtrans.RequestTransformerInterceptor",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.restrans.ResponseTransformerInterceptor",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.router.GatewayConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.router.GatewayRouterHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.router.middleware.PathPrefixServiceHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.sanitizer.SanitizerHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.schema.PropertiesValidator",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","com.fasterxml.jackson.databind.JsonNode","com.networknt.schema.JsonSchema","com.networknt.schema.ValidationContext"] }]
+},
+{
+  "name":"com.networknt.schema.RequiredValidator",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","com.fasterxml.jackson.databind.JsonNode","com.networknt.schema.JsonSchema","com.networknt.schema.ValidationContext"] }]
+},
+{
+  "name":"com.networknt.schema.TypeValidator",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","com.fasterxml.jackson.databind.JsonNode","com.networknt.schema.JsonSchema","com.networknt.schema.ValidationContext"] }]
+},
+{
+  "name":"com.networknt.server.ServerConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.specification.FaviconHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.specification.SpecDisplayHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.specification.SpecSwaggerUIHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.networknt.specification.SpecificationConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.traceability.TraceabilityConfig",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allPublicMethods":true,
+  "allPublicConstructors":true
+},
+{
+  "name":"com.networknt.traceability.TraceabilityHandler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+  {
+    "name":"com.networknt.springboot.DeploymentManagerHandler",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"com.networknt.springboot.SpringBootShutdownHookProvider",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"com.networknt.springboot.SpringBootStartupHookProvider",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"com.networknt.springboot.UndertowServletDeploymentFactory",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+
+  {
+    "name":"io.undertow.Undertow"
+  },
+  {
+    "name":"io.undertow.UndertowLogger_$logger",
+    "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+  },
+  {
+    "name":"io.undertow.UndertowLogger_$logger_en"
+  },
+  {
+    "name":"io.undertow.UndertowLogger_$logger_en_US"
+  },
+  {
+    "name":"io.undertow.UndertowOptions",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"io.undertow.server.protocol.http.HttpRequestParser$$generated",
+    "methods":[{"name":"<init>","parameterTypes":["org.xnio.OptionMap"] }]
+  },
+  {
+    "name":"io.undertow.servlet.UndertowServletLogger_$logger",
+    "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+  },
+  {
+    "name":"io.undertow.servlet.UndertowServletLogger_$logger_en"
+  },
+  {
+    "name":"io.undertow.servlet.UndertowServletLogger_$logger_en_US"
+  },
+  {
+    "name":"io.undertow.servlet.handlers.DefaultServlet",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"io.undertow.servlet.spec.ServletContextImpl",
+    "queryAllDeclaredMethods":true,
+    "methods":[
+      {"name":"addFilter","parameterTypes":["java.lang.String","java.lang.Class"] },
+      {"name":"addFilter","parameterTypes":["java.lang.String","java.lang.String"] },
+      {"name":"addFilter","parameterTypes":["java.lang.String","javax.servlet.Filter"] },
+      {"name":"addJspFile","parameterTypes":["java.lang.String","java.lang.String"] },
+      {"name":"addListener","parameterTypes":["java.lang.Class"] },
+      {"name":"addListener","parameterTypes":["java.lang.String"] },
+      {"name":"addListener","parameterTypes":["java.util.EventListener"] },
+      {"name":"addServlet","parameterTypes":["java.lang.String","java.lang.Class"] },
+      {"name":"addServlet","parameterTypes":["java.lang.String","java.lang.String"] },
+      {"name":"addServlet","parameterTypes":["java.lang.String","javax.servlet.Servlet"] },
+      {"name":"createFilter","parameterTypes":["java.lang.Class"] },
+      {"name":"createListener","parameterTypes":["java.lang.Class"] },
+      {"name":"createServlet","parameterTypes":["java.lang.Class"] },
+      {"name":"declareRoles","parameterTypes":["java.lang.String[]"] },
+      {"name":"getAttribute","parameterTypes":["java.lang.String"] },
+      {"name":"getAttributeNames","parameterTypes":[] },
+      {"name":"getClassLoader","parameterTypes":[] },
+      {"name":"getContext","parameterTypes":["java.lang.String"] },
+      {"name":"getContextPath","parameterTypes":[] },
+      {"name":"getDefaultSessionTrackingModes","parameterTypes":[] },
+      {"name":"getEffectiveMajorVersion","parameterTypes":[] },
+      {"name":"getEffectiveMinorVersion","parameterTypes":[] },
+      {"name":"getEffectiveSessionTrackingModes","parameterTypes":[] },
+      {"name":"getFilterRegistration","parameterTypes":["java.lang.String"] },
+      {"name":"getFilterRegistrations","parameterTypes":[] },
+      {"name":"getInitParameter","parameterTypes":["java.lang.String"] },
+      {"name":"getInitParameterNames","parameterTypes":[] },
+      {"name":"getJspConfigDescriptor","parameterTypes":[] },
+      {"name":"getMajorVersion","parameterTypes":[] },
+      {"name":"getMimeType","parameterTypes":["java.lang.String"] },
+      {"name":"getMinorVersion","parameterTypes":[] },
+      {"name":"getNamedDispatcher","parameterTypes":["java.lang.String"] },
+      {"name":"getRealPath","parameterTypes":["java.lang.String"] },
+      {"name":"getRequestCharacterEncoding","parameterTypes":[] },
+      {"name":"getRequestDispatcher","parameterTypes":["java.lang.String"] },
+      {"name":"getResource","parameterTypes":["java.lang.String"] },
+      {"name":"getResourceAsStream","parameterTypes":["java.lang.String"] },
+      {"name":"getResourcePaths","parameterTypes":["java.lang.String"] },
+      {"name":"getResponseCharacterEncoding","parameterTypes":[] },
+      {"name":"getServerInfo","parameterTypes":[] },
+      {"name":"getServlet","parameterTypes":["java.lang.String"] },
+      {"name":"getServletContextName","parameterTypes":[] },
+      {"name":"getServletNames","parameterTypes":[] },
+      {"name":"getServletRegistration","parameterTypes":["java.lang.String"] },
+      {"name":"getServletRegistrations","parameterTypes":[] },
+      {"name":"getServlets","parameterTypes":[] },
+      {"name":"getSessionCookieConfig","parameterTypes":[] },
+      {"name":"getSessionTimeout","parameterTypes":[] },
+      {"name":"getVirtualServerName","parameterTypes":[] },
+      {"name":"log","parameterTypes":["java.lang.Exception","java.lang.String"] },
+      {"name":"log","parameterTypes":["java.lang.String"] },
+      {"name":"log","parameterTypes":["java.lang.String","java.lang.Throwable"] },
+      {"name":"removeAttribute","parameterTypes":["java.lang.String"] },
+      {"name":"setAttribute","parameterTypes":["java.lang.String","java.lang.Object"] },
+      {"name":"setInitParameter","parameterTypes":["java.lang.String","java.lang.String"] },
+      {"name":"setRequestCharacterEncoding","parameterTypes":["java.lang.String"] },
+      {"name":"setResponseCharacterEncoding","parameterTypes":["java.lang.String"] },
+      {"name":"setSessionTimeout","parameterTypes":["int"] },
+      {"name":"setSessionTrackingModes","parameterTypes":["java.util.Set"] }
+    ]
+  },
+  {
+    "name":"io.undertow.util.FastConcurrentDirectDeque",
+    "fields":[
+      {"name":"head"},
+      {"name":"tail"}
+    ],
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"io.undertow.util.FastConcurrentDirectDeque$Node",
+    "fields":[
+      {"name":"item"},
+      {"name":"next"},
+      {"name":"prev"}
+    ]
+  },
+  {
+    "name":"io.undertow.util.Headers",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"io.undertow.util.HttpString",
+    "fields":[{"name":"hashCode"}]
+  },
+  {
+    "name":"io.undertow.util.Methods",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"io.undertow.util.Protocols",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"io.undertow.websockets.jsr.Bootstrap"
+  },
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor",
+  "fields":[
+    {"name":"activeCount"}, 
+    {"name":"peakQueueSize"}, 
+    {"name":"peakThreadCount"}, 
+    {"name":"queueSize"}, 
+    {"name":"sequence"}, 
+    {"name":"terminationWaiters"}
+  ]
+},
+  {
+    "name":"org.springframework.context.annotation.ConfigurationClassPostProcessor",
+    "allDeclaredFields":true,
+    "queryAllPublicMethods":true,
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"setMetadataReaderFactory","parameterTypes":["org.springframework.core.type.classreading.MetadataReaderFactory"] }
+    ]
+  },
+  {
+    "name":"org.springframework.context.annotation.ConfigurationClassPostProcessorCustomizer"
+  },
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$MXBeanImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$PoolThreadNode",
+  "fields":[
+    {"name":"parked"}, 
+    {"name":"task"}
+  ]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$QNode",
+  "fields":[{"name":"next"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase1",
+  "fields":[
+    {"name":"tail"}, 
+    {"name":"tailLock"}
+  ]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase3",
+  "fields":[{"name":"head"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase5",
+  "fields":[{"name":"threadStatus"}]
+},
+{
+  "name":"org.jboss.threads.Messages_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.jboss.threads.management.StandardThreadPoolMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.slf4j.spi.LocationAwareLogger",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.xnio._private.Messages_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.xnio.management.XnioProviderMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.xnio.management.XnioServerMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.xnio.management.XnioWorkerMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.xnio.nio.Log_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.xnio.nio.NioTcpServer$1",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.xnio.nio.NioXnio$3",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"org.xnio.nio.NioXnioWorker$NioWorkerMetrics",
+  "queryAllPublicConstructors":true
+}
+]
